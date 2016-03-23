@@ -11,7 +11,7 @@ package br.ufrn.imd.pds;
  * 
  * @author edilvolima
  */
-class ConcreteJanela extends Janela {
+class JanelaConcrete extends Janela {
     
     public  void  draw(){
         System.out.println("desenha uma janela");
