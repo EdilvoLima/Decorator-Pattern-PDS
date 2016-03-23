@@ -10,7 +10,7 @@ package br.ufrn.imd.pds;
  * 
  * @author edilvolima
  */
-public class DecoradorBarraVertical extends JanelaDecorator {
+public class DecoradorBarraVertical extends DecoratorJanela {
 
     public DecoradorBarraVertical(Janela janelaDecorada) {
         super(janelaDecorada);

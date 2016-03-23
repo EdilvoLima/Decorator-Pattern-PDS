@@ -19,7 +19,7 @@ public class DecoratorTeste {
             O ConcreteComponent é passado ao ConcreteDecorator que adiciona 
             a responsabilidade. 
         */ 
-        Janela janelaDecorada = new DecoradorBarraVertical(new JanelaSimples());
+        Janela janelaDecorada = new DecoradorBarraVertical(new ConcreteJanela());
 		janelaDecorada.draw();
     }
     

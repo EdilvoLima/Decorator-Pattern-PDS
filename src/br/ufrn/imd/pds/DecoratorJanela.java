@@ -11,11 +11,11 @@ package br.ufrn.imd.pds;
  * 
  * @author edilvolima
  */
-abstract class JanelaDecorator extends Janela {
+abstract class DecoratorJanela extends Janela {
 
     protected Janela janelaDecorada;
 
-    public JanelaDecorator(Janela janelaDecorada) {
+    public DecoratorJanela(Janela janelaDecorada) {
         this.janelaDecorada = janelaDecorada;
     }
 }
