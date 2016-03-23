@@ -6,15 +6,12 @@
 package br.ufrn.imd.pds;
 
 /**
- * ConcreteComponent: define um objeto para o qual responsabilidades adicionais podem ser
- * atribuídas.
+ * Component: define a interface para objetos que podem ter responsabilidades
+ * acrescentadas a eles dinamicamente.
  * 
  * @author edilvolima
  */
-class JanelaConcrete extends Janela {
+abstract class VisualComponent{ 
     
-    public  void  draw(){
-        System.out.println("desenha uma janela");
-    }
+    public abstract void draw();
 }
-

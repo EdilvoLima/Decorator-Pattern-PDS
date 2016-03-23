@@ -9,18 +9,18 @@ package br.ufrn.imd.pds;
  *
  * @author edilvolima
  */
-public class DecoradorBarraHorizontal extends DecoratorJanela{
+public class BorderDecorator extends Decorator{
     
-    public DecoradorBarraHorizontal(Janela janelaDecorada) {
-        super(janelaDecorada);
+    public BorderDecorator(VisualComponent windowDecortated) {
+        super(windowDecortated);
     }
 
     public void draw() {
-        drawBarraHorizontal();
+        drawBorder();
         janelaDecorada.draw();
     }
 
-    private void drawBarraHorizontal() {
-        System.out.println("desenha uma barra horizontal na janela");
+    private void drawBorder() {
+        System.out.println("desenha uma borda na janela");
     }
 }

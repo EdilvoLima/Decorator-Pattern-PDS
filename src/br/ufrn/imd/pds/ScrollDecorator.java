@@ -10,19 +10,19 @@ package br.ufrn.imd.pds;
  * 
  * @author edilvolima
  */
-public class DecoradorBarraVertical extends DecoratorJanela {
+public class ScrollDecorator extends Decorator {
 
-    public DecoradorBarraVertical(Janela janelaDecorada) {
-        super(janelaDecorada);
+    public ScrollDecorator(VisualComponent windowDecorated) {
+        super(windowDecorated);
     }
 
     public void draw() {
-        drawBarraVertical();
+        scrollTo();
         janelaDecorada.draw();
     }
 
-    private void drawBarraVertical() {
-        System.out.println("desenha uma barra vertical na janela");
+    private void scrollTo() {
+        System.out.println("desenha uma barra de scroll na janela");
     }
 
 }
