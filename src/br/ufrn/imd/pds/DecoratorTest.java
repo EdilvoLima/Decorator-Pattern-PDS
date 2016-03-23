@@ -9,7 +9,7 @@ package br.ufrn.imd.pds;
  *
  * @author edilvolima
  */
-public class DecoratorTeste {
+public class DecoratorTest {
 
     /**
      * @param args the command line arguments
