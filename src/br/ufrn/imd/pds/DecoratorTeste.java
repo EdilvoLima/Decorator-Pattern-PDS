@@ -15,6 +15,10 @@ public class DecoratorTeste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
+            O ConcreteComponent é passado ao ConcreteDecorator que adiciona 
+            a responsabilidade. 
+        */ 
         Janela janelaDecorada = new DecoradorBarraVertical(new JanelaSimples());
 		janelaDecorada.draw();
     }
